@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.ConsoleApp", "TurtleChallenge.ConsoleApp.csproj", "{4B7F5B8D-8DB8-4D79-808A-4E15C9F6707A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameContext", "GameContext", "{7A65C2EC-194E-487B-B2D0-9615A605C5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameContext.Data", "GameContext.Data\GameContext.Data.csproj", "{B333F9E5-8FD3-46DB-9F73-FAE68FBDDF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameContext.Domain", "GameContext.Domain\GameContext.Domain.csproj", "{40B71C4F-5EE8-4502-AC3D-446A9763526A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameContext.Test", "GameContext.Test\GameContext.Test.csproj", "{04191216-4874-41F6-BC75-56CB2C7AD422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameContext.Application", "GameContext.Application\GameContext.Application.csproj", "{F428B193-357E-497F-ABD4-572ADF84FBC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B7F5B8D-8DB8-4D79-808A-4E15C9F6707A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7F5B8D-8DB8-4D79-808A-4E15C9F6707A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7F5B8D-8DB8-4D79-808A-4E15C9F6707A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7F5B8D-8DB8-4D79-808A-4E15C9F6707A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B333F9E5-8FD3-46DB-9F73-FAE68FBDDF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B333F9E5-8FD3-46DB-9F73-FAE68FBDDF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B333F9E5-8FD3-46DB-9F73-FAE68FBDDF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B333F9E5-8FD3-46DB-9F73-FAE68FBDDF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B71C4F-5EE8-4502-AC3D-446A9763526A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B71C4F-5EE8-4502-AC3D-446A9763526A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B71C4F-5EE8-4502-AC3D-446A9763526A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B71C4F-5EE8-4502-AC3D-446A9763526A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04191216-4874-41F6-BC75-56CB2C7AD422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04191216-4874-41F6-BC75-56CB2C7AD422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04191216-4874-41F6-BC75-56CB2C7AD422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04191216-4874-41F6-BC75-56CB2C7AD422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F428B193-357E-497F-ABD4-572ADF84FBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F428B193-357E-497F-ABD4-572ADF84FBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F428B193-357E-497F-ABD4-572ADF84FBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F428B193-357E-497F-ABD4-572ADF84FBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B333F9E5-8FD3-46DB-9F73-FAE68FBDDF51} = {7A65C2EC-194E-487B-B2D0-9615A605C5A3}
+		{40B71C4F-5EE8-4502-AC3D-446A9763526A} = {7A65C2EC-194E-487B-B2D0-9615A605C5A3}
+		{04191216-4874-41F6-BC75-56CB2C7AD422} = {7A65C2EC-194E-487B-B2D0-9615A605C5A3}
+		{F428B193-357E-497F-ABD4-572ADF84FBC8} = {7A65C2EC-194E-487B-B2D0-9615A605C5A3}
+	EndGlobalSection
+EndGlobal
