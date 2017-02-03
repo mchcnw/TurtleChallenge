@@ -33,7 +33,7 @@ namespace GameContext.Domain
         public string Direction { get; private set; }
 
         
-        public string[] Directions => new [] {"North", "South", "East", "West"};
+        public string[] Directions => new [] {"North", "East", "South", "West"};
 
         public static Turtle Move(char action, Turtle turtle)
         {
